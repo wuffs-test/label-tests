@@ -1,0 +1,13 @@
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Job for toggling label
+    steps:
+      - name: Toggle label
+        uses: jd-0001/gh-action-toggle-awaiting-reply-label@1.0.1
+        with:
+          label: awaiting-reply
