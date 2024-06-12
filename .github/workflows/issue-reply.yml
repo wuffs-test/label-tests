@@ -8,6 +8,6 @@ jobs:
     name: Job for toggling label
     steps:
       - name: Toggle label
-        uses: jd-0001/gh-action-toggle-awaiting-reply-label@v2.1.2
+        uses: jd-0001/gh-action-toggle-awaiting-reply-label@v2.
         with:
-          label: "awaiting%20reply"
+          label: "awaiting-reply"
