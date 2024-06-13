@@ -109,6 +109,7 @@ body:
       options:
         - "Yes"
         - "No"
+    validations:
       required: true
   - type: textarea
     id: logs
