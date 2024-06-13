@@ -107,8 +107,8 @@ body:
       description: Have you modified the modpack in any way?
       multiple: false
       options:
-        - "Yes"
         - "No"
+        - "Yes"
     validations:
       required: true
   - type: textarea
