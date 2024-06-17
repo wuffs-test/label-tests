@@ -8,7 +8,7 @@ jobs:
     name: Job for toggling label
     steps:
       - name: Toggle label
-        uses: Gaz492/awaiting-reply-action@main
+        uses: wuffs-test/awaiting-reply-action@main
         with:
           debug: true
           label: "Awaiting Reply"
