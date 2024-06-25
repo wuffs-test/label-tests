@@ -8,9 +8,9 @@ body:
       multiple: false
       options:
         - ''
-        - Yes
-        - No
-        - Maybe So
+        - 'Yes'
+        - 'No'
+        - 'Maybe So'
     validations:
       required: true
   - type: dropdown
