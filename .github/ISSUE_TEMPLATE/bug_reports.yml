@@ -8,7 +8,7 @@ body:
       label: Selectme
       description: defrfer
       options:
-        - null
+        - ''
         - 'Yes'
         - 'No'
     validations:
